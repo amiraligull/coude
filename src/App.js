@@ -6,6 +6,7 @@ import Trending from "./Compnents/TopTrending/Trending";
 import Why from "./Compnents/why/Why";
 import Features from "./Compnents/Features/Features";
 import Partner from "./Compnents/Partners/Partner";
+import Start from "./Compnents/GetStarted/Start";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <Why />
       <Features />
       <Partner />
+      <Start />
     </div>
   );
 }
