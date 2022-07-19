@@ -10,10 +10,10 @@
 
 .blue1 {
   position: absolute;
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   border-radius: 100%;
-  top: 11rem;
+  top: 8rem;
   left: 7rem;
   z-index: -1;
 }

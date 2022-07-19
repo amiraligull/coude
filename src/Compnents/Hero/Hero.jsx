@@ -7,32 +7,33 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <div id="hero">
-      <div className="container flex  items-center mb-20 mt-10 px-[4rem] md:px-[4rem] md:mt-20  mx-auto flex-col-reverse md:flex-row">
+      <div className="container flex  items-center mb-20 mt-10 px-[4rem] md:px-[4rem] md:mt-10  mx-auto flex-col-reverse md:flex-row">
         {/* left */}
-        <div className="flex flex-col  gap-10   mt-5 ">
+        <div className="flex flex-col  gap-8   mt-5 ">
           <span
             className=" 
                text-5xl       
-            md:text-7xl  font-bold text-purple"
+            md:text-6xl  font-bold text-purple"
             id="introheading"
           >
-            <span className="md:text-white">Th</span>e easiest way to buy & sell
-            cryptocurrency
+            <span className="md:text-white">Th</span>e Most Secure way to Launch, Invest, and Audit Blockchain Projects
           </span>
           <span id="ptext" className="text-[24px] font-thin	 text-purple">
-            Venify is a decentralized platform that provides its users the means
-            to create their own token, generate initial liquidity and aid in
-            listing services.
+          Your one stop shop. Our user-friendly interface provides 
+a smooth and easy process operable by even the most 
+novice of crypto users. All our functions can be implemented
+without writing a single line of code along with implementing
+the highest security against impostors.
           </span>
           <button className="  bg-blue text-white font-bold  p-4 w-[12rem] rounded-2xl   ">
             View Docs
           </button>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex  items-center justify-center">
           <img
             src={intro}
             alt={intro}
-            className="w-[150rem] md:w-[95rem] mt-[-5rem] md:ml-[2rem] relative"
+            className="w-[150rem] md:w-[180rem] mt-[-5rem] md:ml-[2rem] relative"
           />
         </div>
       </div>
